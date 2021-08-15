@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/rl1"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWrite">
+
+        <TextView
+            android:id="@+id/title1"
+            style="@style/result_text_title"
+            android:text="@string/result_text_title"/>
+
+        <TextView
+            android:id="@+id/t1"
+            style="@style/result_text"
+            android:layout_alignEnd="@+id/t6"
+            android:layout_below="@+id/title1"/>
+
+        <TextView
+            android:id="@+id/t2"
+            style="@style/result_text"
+            android:layout_alignEnd="@+id/t6"
+            android:layout_below="@+id/t1"/>
+
+        <TextView
+            android:id="@+id/t2_1"
+            style="@style/result_text"
+            android:textColor="@color/colorGray1"
+            android:textSize="10sp"
+            android:layout_alignBaseline="@+id/t2"
+            android:layout_toEndOf="@+id/t2"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:id="@+id/t3"
+            style="@style/result_text"
+            android:layout_alignEnd="@+id/t6"
+            android:layout_below="@+id/t2"/>
+
+        <TextView
+            android:id="@+id/t4"
+            style="@style/result_text"
+            android:layout_alignEnd="@+id/t6"
+            android:layout_below="@+id/t3"/>
+
+        <TextView
+            android:id="@+id/t4_1"
+            style="@style/result_text"
+            android:textColor="@color/colorGray1"
+            android:textSize="10sp"
+            android:layout_alignBaseline="@+id/t4"
+            android:layout_toEndOf="@+id/t4"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:id="@+id/t5"
+            style="@style/result_text"
+            android:layout_below="@+id/t4"/>
+
+        <TextView
+            android:id="@+id/t6"
+            style="@style/result_text"
+            android:layout_marginBottom="20dp"
+            android:layout_below="@+id/t5"/>
+
+        <TextView
+            android:id="@+id/t6_1"
+            style="@style/result_text"
+            android:textColor="@color/colorGray1"
+            android:textSize="10sp"
+            android:layout_alignBaseline="@+id/t6"
+            android:layout_toEndOf="@+id/t6"
+            android:layout_marginStart="100dp"/>
+
+        <TextView
+            android:id="@+id/miss1"
+            style="@style/result_text_miss"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="340dp"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/rl1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="30dp"
+        android:background="@color/colorWrite">
+
+        <TextView
+            android:id="@+id/title2"
+            style="@style/result_text_title"
+            android:text="@string/result_text_title3"/>
+
+        <TextView
+            android:id="@+id/t7"
+            style="@style/result_text"
+            android:layout_below="@+id/title2"
+            android:layout_marginRight="20dp"/>
+
+        <TextView
+            android:id="@+id/t8"
+            style="@style/result_text"
+            android:layout_below="@+id/t7"/>
+
+        <TextView
+            android:id="@+id/miss2"
+            style="@style/result_text_miss"/>
+
+        <Button
+            android:id="@+id/result_save"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorGreen1"
+            android:text="@string/result_button_commit"
+            android:textColor="@color/colorWrite"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:visibility="invisible"/>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

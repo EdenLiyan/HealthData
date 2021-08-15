@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.liyan.healthdata.MainActivity"
+    android:orientation="vertical"
+    >
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/colorGray">
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/rg"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal"
+            android:background="@color/colorWrite">
+
+            <RadioButton
+                android:id="@+id/rb_test"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/radio_button_test"
+                android:checked="true"
+                android:text="@string/rb_test"/>
+
+            <RadioButton
+                android:id="@+id/rb_result"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/radio_button_result"
+                android:text="@string/rb_result"/>
+
+            <RadioButton
+                android:id="@+id/rb_history"
+                style="@style/RadioButtonStyle"
+                android:drawableTop="@drawable/radio_button_history"
+                android:text="@string/rb_history"/>
+
+        </RadioGroup>
+
+    </LinearLayout>
+
+
+</LinearLayout>

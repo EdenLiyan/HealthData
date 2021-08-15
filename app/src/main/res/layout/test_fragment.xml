@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/test_title"
+            android:textColor="@color/colorBlack"
+            android:textSize="30sp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="5dp"
+            android:text="@string/test_title1"
+            android:textColor="@color/colorBlack"
+            android:textSize="15sp"/>
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_sex"/>
+
+        <RadioGroup
+            android:id="@+id/test_rg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/test_rb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="男"
+                android:textSize="20sp"/>
+
+            <RadioButton
+                android:id="@+id/test_rb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:text="女"
+                android:textSize="20sp"/>
+
+        </RadioGroup>
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title"/>
+
+        <EditText
+            android:id="@+id/test_weight"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title1"/>
+
+        <EditText
+            android:id="@+id/test_fat"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint1"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title2"/>
+
+        <EditText
+            android:id="@+id/test_age"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint2"
+            android:inputType="number"
+            />
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title3"/>
+
+        <EditText
+            android:id="@+id/test_bmi"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint3"
+            android:inputType="numberDecimal"
+            />
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title4"/>
+
+        <EditText
+            android:id="@+id/test_metabolism"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint4"
+            android:inputType="number"
+            />
+
+        <TextView
+            style="@style/test_edit_title"
+            android:text="@string/test_edit_title5"/>
+
+        <EditText
+            android:id="@+id/test_viscera_fat"
+            style="@style/test_edit"
+            android:hint="@string/test_edit_hint5"
+            android:inputType="numberDecimal"
+            />
+
+        <Button
+            android:id="@+id/test_commit"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:background="@color/colorGreen1"
+            android:text="@string/test_edit_button"
+            android:textColor="@color/colorWrite"
+            android:textSize="15sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+</ScrollView>

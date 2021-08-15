@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">健康数据</string>
+
+    <string name="rb_test">健康测试</string>
+    <string name="rb_result">测试结果</string>
+    <string name="rb_history">测试记录</string>
+
+    <string name="test_title">请填写个人信息</string>
+    <string name="test_title1">填写测试完的体重数据</string>
+    <string name="test_edit_sex">性别</string>
+    <string name="test_edit_title">体重(kg)</string>
+    <string name="test_edit_hint">请输入您的体重</string>
+    <string name="test_edit_title1">脂肪率(%)</string>
+    <string name="test_edit_hint1">请输入您的脂肪率</string>
+    <string name="test_edit_title2">身体年龄(岁)</string>
+    <string name="test_edit_hint2">请输入您的身体年龄</string>
+    <string name="test_edit_title3">BMI</string>
+    <string name="test_edit_hint3">请输入您的BMI</string>
+    <string name="test_edit_title4">基础代谢(kcal)</string>
+    <string name="test_edit_hint4">请输入您的基础代谢</string>
+    <string name="test_edit_title5">内脏脂肪</string>
+    <string name="test_edit_hint5">请输入您的内脏脂肪</string>
+    <string name="test_edit_button">测试</string>
+
+    <string name="result_text_title">身体数据</string>
+    <string name="result_text_weight">体重：</string>
+    <string name="result_text_fat">脂肪率：</string>
+    <string name="result_text_fat1">正常范围：10%~19%</string>
+    <string name="result_text_fat2">正常范围：19%~29%</string>
+    <string name="result_text_body_age">身体年龄：</string>
+    <string name="result_text_bmi">BMI：</string>
+    <string name="result_text_bmi1">正常范围：18.5~24.9</string>
+    <string name="result_text_metabolism">基础代谢：</string>
+    <string name="result_text_viscera">内脏脂肪：</string>
+    <string name="result_text_viscera1">正常范围：0.5~9.5</string>
+    <string name="result_text_title3">测试结果</string>
+    <string name="result_text_time">测试时间</string>
+    <string name="result_text_no">暂无测试数据!!</string>
+    <string name="result_button_commit">保存测试记录</string>
+
+
+</resources>
